@@ -12,10 +12,10 @@ import io.restassured.internal.print.ResponsePrinter;
 import io.restassured.response.Response;
 import io.restassured.specification.FilterableRequestSpecification;
 import io.restassured.specification.FilterableResponseSpecification;
+import org.apache.commons.io.output.WriterOutputStream;
 
 import java.io.PrintStream;
 import java.io.StringWriter;
-import org.apache.commons.io.output.WriterOutputStream;
 
 public class APIResponseFilter implements Filter {
     public static Markup markup;

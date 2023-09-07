@@ -1,4 +1,4 @@
-package com.foodics.api.login.credential;
+package com.foodics.api.credential;
 
 
 import com.foodics.api.endpoints.APIEndPoint;

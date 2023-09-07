@@ -1,10 +1,10 @@
 package com.foodics.api.common;
 
-import com.foodics.api.endpoints.APIEndPoint;
-import com.foodics.api.utility.HttpStatus;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.foodics.api.endpoints.APIEndPoint;
+import com.foodics.api.utility.HttpStatus;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.EncoderConfig;

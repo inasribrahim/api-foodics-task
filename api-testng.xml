@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Foodics API">
-    <test name="Smoke Test">
-        <classes>
-            <class name="com.foodics.api.tests.Tests"/>
-        </classes>
-    </test> <!-- Test -->
-</suite> <!-- Suite -->
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="Foodics Task">
+ <classes>
+    <class name="com.foodics.api.tests.APITest"/>
+</classes>
+</test>
+</suite>

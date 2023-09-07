@@ -2,10 +2,8 @@ package com.foodics.api.generate_data;
 
 import com.github.javafaker.Faker;
 
-import java.text.SimpleDateFormat;
 import java.util.Random;
 import java.util.UUID;
-import java.util.concurrent.TimeUnit;
 
 public final class GenerateData {
 private GenerateData(){}

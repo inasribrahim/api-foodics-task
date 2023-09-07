@@ -3,21 +3,22 @@ package com.foodics.api.tests;
 import com.foodics.api.common.BaseApi;
 import com.foodics.api.endpoints.APIEndPoint;
 import com.foodics.api.generate_data.GenerateData;
-import com.foodics.api.login.credential.CredentialsBuilder;
-import com.foodics.api.login.credential.CredentialsPayload;
-import com.foodics.api.login.credential.Token;
+import com.foodics.api.credential.CredentialsBuilder;
+import com.foodics.api.credential.CredentialsPayload;
+import com.foodics.api.credential.Token;
 import com.foodics.api.properties.PropertiesHandler;
 import com.foodics.api.utility.HttpStatus;
 import io.restassured.http.ContentType;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
+
 
 import java.io.IOException;
 import java.lang.reflect.Method;
 
 
 
-public class Tests extends BaseTest {
+public class APITest extends BaseTest {
 
     private static String tokenKey ;
 
